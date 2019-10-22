@@ -1,0 +1,5 @@
+The error happenes because "total" isn't defined, which is the reactive element when the quantity is changed. 
+To fix it you need to have a computed function that returns quantity * price.
+
+I have the plugin installed, but doesn't recognize vue?
+See image vue-not-detected.jpg
